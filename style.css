@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.wrapper {
+    width: 90.5%;
+    margin: 0 auto;
+}
+nav {
+    font-size: 1.2rem;
+    background-color: rgba(170, 29, 29, 0.822);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 1rem;
+    text-align: right;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.logo {
+    text-align: left;
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+}
+.logo a {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.logo i {
+    color: black;
+    font-size: 2rem;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 0.8rem;
+}
+nav a {
+    text-decoration: none;
+    color: bisque;
+}
+nav a:hover {
+    color:rgba(170, 29, 29, 0.822);
+    background: bisque;
+    padding: 0.2rem;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.floatleft {
+    margin: 1rem;
+    padding: 0.5rem;
+    
+}
+.floatleft img {
+    width: 30%;
+    border-radius: 1rem;
+}
+.floatright {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 3.8rem;
+    padding: 0;
+}
+.floatright h1 {
+    margin: 0;
+    color:rgba(170, 29, 29, 0.822);
+    font-size: 2rem;
+    font-style: oblique;
+}
+.floatright p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#about {
+    border-top: 3px solid rgba(170, 29, 29, 0.822);
+    text-align: center;
+}
+.center {
+    margin: 1rem;
+}
+.center h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+.center p {
+    padding: 1rem;
+    margin: 0;
+}
+#frontend {
+    border-top: 3px solid rgba(170, 29, 29, 0.822);
+    text-align: center;
+}
+.center a {
+    color:rgba(170, 29, 29, 0.822);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.center a:hover {
+    color: bisque;
+    background: rgba(170, 29, 29, 0.822);
+    padding: 0.2rem;
+}
+#techwrite {
+    margin: 2rem 0;
+    border-top: 3px solid rgba(170, 29, 29, 0.822);
+}
+.techwrite h1, p.techwrite {
+    text-align: center;
+} 
+p.techwrite a {
+    color: rgba(170, 29, 29, 0.822);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+p.techwrite a:hover {
+    color: bisque;
+    background: rgba(170, 29, 29, 0.822);
+    padding: 0.2rem;
+}
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images img {
+    width: 30%;
+    border-radius: 0.5rem;
+    margin: 0 1rem 1rem 0;
+    float: left;
+}
+.images p {
+    margin-right: 0.5rem;
+    margin-bottom: 3.8rem;
+    padding: 0;
+    
+}
+.tw-images a {
+    color: rgba(170, 29, 29, 0.822);
+    font-size: 1.2rem;
+}
+.tw-images a:hover {
+    color: bisque;
+    background: rgba(170, 29, 29, 0.822);
+    padding: 0.2rem;
+}
+#contact {
+    border-top: 3px solid rgba(170, 29, 29, 0.822);
+    text-align: center;
+}
+.center footer {
+    background-color: rgba(170, 29, 29, 0.822);
+}
+footer h1{
+    padding-top: 0.8rem;
+}
+#contact a {
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+.icons {
+    list-style: none;
+    margin: 0.5rem;
+    display: inline-block;
+    justify-content: space-around;
+}
+#contact a:hover {
+    color:white;
+    background: rgba(170, 29, 29, 0.822);
+    padding: 0.2rem;
+}
+@media (max-width: 750px) {
+    .wrapper {
+        width: 70%;
+    }
+    nav li, #home {
+        display: flex;
+        flex-direction: column;
+    }
+}
